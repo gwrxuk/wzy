@@ -15,7 +15,13 @@
 <script src="https://www.amcharts.com/lib/4/charts.js"></script>
 <script src="https://www.amcharts.com/lib/4/themes/animated.js"></script>
 
-<!-- Chart code -->
+
+</head>
+<!-- HTML -->
+  
+  <body>
+<div id="chartdiv"></div>		
+    <!-- Chart code -->
 <script>
 // Themes begin
 am4core.useTheme(am4themes_animated);
@@ -81,12 +87,6 @@ chart.cursor = new am4charts.RadarCursor();
 chart.cursor.innerRadius = am4core.percent(50);
 chart.cursor.lineY.disabled = true;
 </script>
-</head>
-<!-- HTML -->
-  
-  <body>
-<div id="chartdiv"></div>		
-    
     </body>
   
   </html>
